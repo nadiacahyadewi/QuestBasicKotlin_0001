@@ -23,4 +23,12 @@ fun ContohList() {
     // menghapus data dari list mutable
     shape.remove("Triangle")
     println(shape)
+
+    // mengubah data didalam list mutable
+    shape[0] = "Oval"
+    println(shape)
+
+    // List Read-Only
+    val shapesLocked: List<String> = shape
+    println(shapesLocked)
 }
