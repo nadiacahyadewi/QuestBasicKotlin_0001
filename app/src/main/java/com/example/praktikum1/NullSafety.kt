@@ -24,4 +24,6 @@ fun nullsafety() {
     }
     println(strLength (neverNull)) // 18
 }
-
+fun main() {
+    nullsafety()
+}
