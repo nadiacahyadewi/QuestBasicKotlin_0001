@@ -36,14 +36,14 @@ fun ConditionalStatement() {
     } catch (e: NumberFormatException) {
         println("Invalid Number")
     }
+}
 
-    fun Perulangan() {
-        println()
-        println("=== Perulangan ===")
+fun Perulangan() {
+    println()
+    println("=== Perulangan ===")
 
-        for (i in 1..5) {
-            println("Perulangan ke-$i")
-        }
+    for (i in 1..5) {
+        println("Perulangan ke-$i")
     }
 
     val cars = listOf("BMW", "Toyota", "Honda", "Audi")
