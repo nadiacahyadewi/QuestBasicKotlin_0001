@@ -30,3 +30,10 @@ fun withDefaultParameter(name: String = " Indra", age: Int) {
 fun withReturn(panjang : Int, lebar : Int) {
     return println(panjang * lebar)
 }
+
+fun main() {
+    withoutParameter()
+    withParameter("Jhon")
+    withNamedArgument(name = "Jhon",age = 30)
+    withDefaultParameter(age = 25)
+}
