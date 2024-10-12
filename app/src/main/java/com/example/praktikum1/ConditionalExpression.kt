@@ -33,9 +33,17 @@ fun ConditionalStatement() {
     try {
         val result = value.toInt()
         println("Result: $result")
-    }
-    catch (e: NumberFormatException) {
+    } catch (e: NumberFormatException) {
         println("Invalid Number")
+    }
+
+    fun Perulangan() {
+        println()
+        println("=== Perulangan ===")
+
+        for (i in 1..5) {
+            println("Perulangan ke-$i")
+        }
     }
 }
 
